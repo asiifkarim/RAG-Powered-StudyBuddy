@@ -1,8 +1,11 @@
 fastapi
 uvicorn
-pydantic
-python-multipart
-PyPDF2
 langchain
+langchain-google-genai
+langchain-community
 faiss-cpu
+pypdf2
+python-multipart
+python-dotenv
 requests
+streamlit
