@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+PyPDF2
+langchain
+faiss-cpu
+requests
