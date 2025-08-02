@@ -5,8 +5,8 @@ import os
 import time
 from datetime import datetime
 
-# Backend API URL
-BASE_URL = "http://localhost:8000"
+# Backend API URL (Updated to public HF Space URL)
+BASE_URL = "https://asif1karim-study-assistant.hf.space"
 
 def display_quiz(topic: str, num_questions: int = 5):
     """Display interactive quiz with proper form submission and error handling"""
@@ -317,3 +317,4 @@ with st.sidebar:
                     st.write(f"Questions: {item['num_questions']}")
     else:
         st.info("No history yet")
+
