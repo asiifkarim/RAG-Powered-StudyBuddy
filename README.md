@@ -1,19 +1,36 @@
-<<<<<<< HEAD
-# RAG-Powered-StudyBuddy
-=======
-# EduGuide: AI-Powered Study Assistant
+# 📚 EduGuide: AI-Powered Study Assistant
 
-An intelligent study companion that helps students learn from PDF documents through interactive features and AI-powered assistance.
+An intelligent, RAG-based study companion that helps students learn from PDF documents through interactive Q&A, quiz generation, and AI-powered study material.
 
-## Features
+🔗 **Try it live**: [rag-powered-studybuddy.streamlit.app](https://rag-powered-studybuddy.streamlit.app/)
 
-- **Document Processing**: Upload and process PDF documents
-- **Interactive Q&A**: Ask questions about your documents
-- **Study Material Generation**: Create comprehensive study guides
-- **Quiz Generation**: Generate interactive quizzes with explanations
-- **Progress Tracking**: Track your learning progress
+![App Preview](./assets/app_preview.png)
 
-## Project Structure
+---
+
+## 🚀 Features
+
+- 📄 **PDF Upload & Processing** – Upload any study material in PDF format
+- 🤖 **AI-Powered Q&A** – Ask natural questions and get accurate answers
+- 🧠 **Study Material Generator** – Summarized, well-structured notes from documents
+- 📝 **Quiz Generator** – Generate interactive quizzes with answers and explanations
+- 📊 **Progress Tracking** – Track your learning history and activities
+
+---
+
+## 🧠 Powered By
+
+- **Frontend**: Streamlit  
+- **Backend**: FastAPI  
+- **AI & RAG**: LangChain + Google Gemini  
+- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2`  
+- **Vector Store**: FAISS  
+- **PDF Parsing**: PyPDF2
+
+---
+
+## 🗂️ Project Structure
+
 
 ```
 EduGuide/
@@ -75,3 +92,4 @@ streamlit run app.py
 - Vector Store: FAISS
 - Document Processing: PyPDF2
 >>>>>>> f855ef0 (Initial commit with backend and frontend)
+
